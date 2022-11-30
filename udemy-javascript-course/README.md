@@ -9,6 +9,7 @@
 
 ## Technical Setup
 - IDE: Visual Studio Code
+- Browser: Google Chrome
 
 ## Course Overview
 - [x] Chapter 01: Introduction
