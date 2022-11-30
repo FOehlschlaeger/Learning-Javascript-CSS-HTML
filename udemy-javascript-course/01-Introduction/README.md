@@ -8,3 +8,6 @@ Things to consider during the course:
 - make your own projects to practice
 - don't give up! 
 - have fun :) 
+
+### Migration-Guide
+There is also an older course (legacy) from before 2020. This PDF file is to check for changes from the legacy course. 
