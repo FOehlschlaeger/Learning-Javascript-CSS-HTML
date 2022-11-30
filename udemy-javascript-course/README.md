@@ -7,7 +7,10 @@
 - Hosted Github Repository: https://github.com/jonasschmedtmann/complete-javascript-course
 - Further resources: https://codingheroes.io/resources/
 
-## Overview
+## Technical Setup
+- IDE: Visual Studio Code
+
+## Course Overview
 - [x] Chapter 01: Introduction
 - [ ] Chapter 02: JavaScript Fundamentals - Part 1
 - [ ] Chapter 03: JavaScript Fundamentals - Part 2
