@@ -8,7 +8,7 @@
 - Further resources: https://codingheroes.io/resources/
 
 ## Overview
-- Chapter 01: Introduction
-- Chapter 02: JavaScript Fundamentals - Part 1
-- Chapter 03: JavaScript Fundamentals - Part 2
+- [x] Chapter 01: Introduction
+- [ ] Chapter 02: JavaScript Fundamentals - Part 1
+- [ ] Chapter 03: JavaScript Fundamentals - Part 2
 - ...
