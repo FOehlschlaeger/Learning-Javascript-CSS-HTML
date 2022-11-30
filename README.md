@@ -8,7 +8,7 @@ Learning frontend with JavaScript, CSS, HTML
 
 ## JavaScript
 ### Udemy Course
-- https://www.udemy.com/course/the-complete-javascript-course/
+- [Udemy-Link](https://www.udemy.com/course/the-complete-javascript-course/) or [My Github-Directory](https://github.com/FOehlschlaeger/Learning-Javascript-CSS-HTML/tree/main/udemy-javascript-course)
 
 ### Tutorials
 - [Youtube Playlist: JavaScript Lernen für Anfänger bis Profis](https://www.youtube.com/playlist?list=PLNmsVeXQZj7qOfMI2ZNk-LXUAiXKrwDIi)
