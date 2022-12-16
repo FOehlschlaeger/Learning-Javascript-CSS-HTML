@@ -11,19 +11,19 @@ This command opens a new pop-up window in the browser. This JavaScript code will
 
 Some more (commented) JavaScript code:
 ```
-let js = 'amazing' // This is a variable definition.
-if (js === 'amazing') alert('JavaScript is Fun!') // if condition to print a string.
-if (js === "amazing") alert("JavaScript is Fun!") // single or double quotes does not seem to make any difference.
+> let js = 'amazing' // This is a variable definition.
+> if (js === 'amazing') alert('JavaScript is Fun!') // if condition to print a string.
+> if (js === "amazing") alert("JavaScript is Fun!") // single or double quotes does not seem to make any difference.
 
-js = "boring"
-if (js === 'amazing') alert('JavaScript is Fun!') // nothing will happen since variable "js" is "boring".
+> js = "boring"
+> if (js === 'amazing') alert('JavaScript is Fun!') // nothing will happen since variable "js" is "boring".
 
-(js === "amazing") // returns `false`
+> (js === "amazing") // returns `false`
 ```
 
 Math operations in console:
 ```javascript
-40+8+23-10 // 61
+> 40+8+23-10 // 61
 ```
 
 ### A brief introduction to JavaScript
