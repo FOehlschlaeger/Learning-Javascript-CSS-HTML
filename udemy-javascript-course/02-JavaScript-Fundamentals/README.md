@@ -59,3 +59,65 @@ The three core technologies to create interactive and dynamic websites and web a
 - new releases with a couple of new features on yearly basis
 - Modern JavaScript: all yearly releases after `ES6`
 - **This course covers modern JavaScript, but without forgetting the older parts**
+
+## JavaScript Fundamentals - Part 1
+- Usually, JavaScript is attached to webpages, at least for frontend applications
+- JavaScript needs to be attached to an HTML document, this is why a file such as `index.html` is necessary
+- In HTML there is `<script>` tag, where JavaScript code can be written
+```html
+<html>
+<head>
+    ...
+    <style>
+        ...
+    </style>
+    <!-- 
+        This inline script-section is for JavaScript code. 
+        But usually, this JavaScript code is stored in a separate file `script.js` to separate JavaScript from HTML code. 
+    -->
+    <script>
+        let js = "amazing";
+        if (js === "amazing") alert("JavaScipt is FUN!");
+
+        40 + 8 + 23 - 10;
+        console.log(40 + 8 + 23 - 10);
+    </script>
+</head>
+
+<body>
+    ...
+</body>
+</html>
+...
+```
+- To "execute" this code open the file `index.html` in the browser
+- Reloading the page in the browser causes the file to be executed again
+- `console.log()` prints output to the browsers console (via `inspect`)
+
+
+### Linking JavaScript file to HTML file
+- Usually, to separate JavaScript code from HTML distinct files are created, also for better maintaining and funtionality separation: `script.js`
+```javascript
+let js = "amazing";
+if (js === "amazing") alert("JavaScipt is FUN!");
+
+40 + 8 + 23 - 10;
+console.log(40 + 8 + 23 - 10);
+```
+- This `script.js` to the HTML file `index.html`, add a script section to the HTML body
+```html
+<html>
+<head>
+    ...
+</head>
+
+<body>
+    <h1>JavaScript Fundamentals – Part 1</h1>
+
+    <script src="./script.js"></script>
+</body>
+</html>
+```
+
+### Variables and Values
+- 
