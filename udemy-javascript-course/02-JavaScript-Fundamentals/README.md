@@ -120,4 +120,28 @@ console.log(40 + 8 + 23 - 10);
 ```
 
 ### Variables and Values
-- 
+- Values are most fundamental, the smallest units of information
+- Values can be stored in variables
+- A variable can be envisioned as a box with content (value) and a label (variable name) to be re-used only via the label
+- Declaring a variable with a value in memory
+```javascript
+// Declaring a variable in memory
+let firstProject = "JavaScript";
+console.log(firstProject);
+```
+
+### Naming Convention
+- CamelCase notation: `firstNamePerson`
+- Variable names:
+    - cannot start with a number: `3years = 3;` is invalid and results in a `SyntaxError`
+    - cannot use keywords of JavaScript: `let new = 27;` results in a `SyntaxError`
+    - cannot use `&` or other symbols: `let java&script = "js";` results in a `SyntaxError`
+    - can only start with `_` or `$` if followed by JavaScript keywords: 
+        - `let _function = "js";`
+        - `let $function = "js";`
+    - should not be named `name` since this is actual a valid label of a variable (does not result in error), but it is also a JavaScript keyword
+    - should not start with an upper case letter: `let Course = "JavaScript";`
+    - should be only upper case for constants: `let PI = 3.1415;`
+    - should clarify by its name what value this variable is holding: 
+        - `let myFirstJob = "Data Scientist";`
+        - `let myCurrentJob = "Software Developer";`
