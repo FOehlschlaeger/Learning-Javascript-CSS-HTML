@@ -90,6 +90,8 @@ The three core technologies to create interactive and dynamic websites and web a
 </html>
 ...
 ```
+
+### Code Execution
 - To "execute" this code open the file `index.html` in the browser
 - Reloading the page in the browser causes the file to be executed again
 - `console.log()` prints output to the browsers console (via `inspect`)
