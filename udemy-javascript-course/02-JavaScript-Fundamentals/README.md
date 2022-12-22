@@ -269,7 +269,14 @@ console.log(x);
 Comparison Operators
 - Produces `boolean` values
 ```javascript
+// Comparison Operators
+console.log(ageMe > ageFriend); // >, <, >=, <=
+console.log(ageFriend >= 18); // true
 
+const isFullAge = ageFriend >= 18;
+console.log(typeof isFullAge);
+
+console.log(now - 1993 > now - 1994);
 ```
 
 ### Operator Precedence
