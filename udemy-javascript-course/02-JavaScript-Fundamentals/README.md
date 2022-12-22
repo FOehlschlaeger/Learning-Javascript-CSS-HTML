@@ -25,6 +25,7 @@ Math operations in console:
 ```javascript
 > 40+8+23-10 // 61
 ```
+After reloading the page in the browser, the executed commands in the console and the corresponding results are removed. The commands and results are temporarily, if executed in browser console directly.
 
 ## What is JavaScript? 
 > JavaScript is a high-level, object-oriented, multi-paradigm programming language.
@@ -94,7 +95,7 @@ The three core technologies to create interactive and dynamic websites and web a
 ### Code Execution
 - To "execute" this code open the file `index.html` in the browser
 - Reloading the page in the browser causes the file to be executed again
-- `console.log()` prints output to the browsers console (via `inspect`)
+- `console.log()` prints output to the browsers console (via `inspect`), can use several values separated by a comma
 
 
 ### Linking JavaScript file to HTML file
@@ -225,3 +226,50 @@ var job = "data scientist";
 job = "software developer";
 ```
 
+### Basic Operators
+- Operators allows to work with variables
+
+Mathematical Operators
+- addition: `+`
+- subtraction: `-`
+- multiplication: `*`
+- division: `/`
+- exponential: `**`
+```javascript
+// Basic Operators
+const now = 2037;
+const ageMe = now - 1993;
+const ageFriend = now - 1990;
+console.log(ageMe, ageFriend);
+
+console.log(ageMe * 2, ageMe / 10, 2 ** 4);
+
+const firstName = "Friso";
+const lastName = "Oehlschlaeger";
+console.log("Full name: " + firstName + " " + lastName);
+```
+
+Assignment Operators
+```javascript
+// Assignment Operators
+let x = 10 + 5;
+console.log(x);
+x += 10; // x = x + 10 = 25
+console.log(x);
+x *= 4; // x = x * 4 = 100
+console.log(x);
+x /= 2; // x = x / 2 = 50
+console.log(x);
+x++; // x = x + 1 = 51
+console.log(x);
+x--; // x = x - 1 = 50
+console.log(x);
+```
+
+Comparison Operators
+- Produces `boolean` values
+```javascript
+
+```
+
+### Operator Precedence
