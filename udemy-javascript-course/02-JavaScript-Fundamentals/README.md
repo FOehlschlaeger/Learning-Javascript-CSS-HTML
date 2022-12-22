@@ -114,9 +114,11 @@ console.log(40 + 8 + 23 - 10);
 </head>
 
 <body>
-    <h1>JavaScript Fundamentals – Part 1</h1>
+    <h1>JavaScript Fundamentals – Part 1 (with assignments)</h1>
 
     <script src="./script.js"></script>
+
+    <script src="./assignments.js"></script>
 </body>
 </html>
 ```
