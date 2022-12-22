@@ -149,3 +149,43 @@ console.log(firstProject);
     - should clarify by its name what value this variable is holding: 
         - `let myFirstJob = "Data Scientist";`
         - `let myCurrentJob = "Software Developer";`
+
+### Data Types
+- Each value is either an **Object** or a **Primitive (everything else)**
+- Object
+```javascript
+let me = {name: "Example"};
+```
+- Primitive
+```javascript
+let firstJob = "Data Scientist";
+let age = 30;
+```
+
+Primitive Datatypes
+- `Number`: Floating point numbers, used for decimals and integers, always have decimals (not always visible), `let age = 23;`
+- `String`: Sequence of characters, used for text, put in same quotes, double or single quotes can be used but they have to be the same to mark the beginning and ending of a string, `let firstJob = "Data Scientist";`
+- `Boolean`: Logical typy, either `true` or `false`, used for decisions in code, `let fullAge = true;`
+- `Undefined`: Value of a declared variable without assigning a value (empty value), `let country;`
+- `Null`: Also empty value of type `object`
+- `Symbol`: Value that is unique and cannot be changed (from ES 2015)
+- `BigInt`: Larger integers than Number type can hold (ES2020)
+
+Dynamic Typing
+- No manual definition of the data type of values in variables necessary
+- JavaScript automatically detects the datatype
+- **The value has the type, not the variable**
+- Through the lifetime of a variable, values of different data types can be assigned to that variable
+- Operator `typeof` to get the type of a value of a variable
+- First declaration of a variable needs `let ...`
+- After variable declaration the data type can be changed by assigning a new value of a different data type to that variable
+```javascript
+let abc = true;
+console.log(typeof abc); // boolean
+abc = "Yes";
+console.log(typeof abc); // string
+```
+- `null` is of type `object`, is regarded as error in JavaScript
+```javascript
+console.log(typeof null); // object
+```
