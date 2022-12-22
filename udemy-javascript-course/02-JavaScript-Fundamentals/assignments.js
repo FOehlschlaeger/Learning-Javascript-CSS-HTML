@@ -1,6 +1,22 @@
-let country = "Germany";
-let continent = "Europe";
-let population_million = 80;
+console.log("ASSIGNMENTS")
 
-console.log("The country " + country + " in " + continent + " has a population of around " + population_million + " million people.");
+// Values and Variables
+const country = "Germany";
+const continent = "Europe";
+let populationMillion = 80;
+
+// console.log("The country " + country + " in " + continent + " has a population of around " + populationMillion + " million people.");
+
+// Data Types
+const isIsland = false;
+let language;
+console.log("The country " + country + " is an island: " + isIsland + ", type: " + typeof isIsland);
+
+// Variable Declaration with let, const, var
+language = "german";
+populationMillion = 82;
+
+console.log("The country " + country + " in " + continent + " has a population of around " + populationMillion + " million people.");
+
+// continent = "Asia";
 

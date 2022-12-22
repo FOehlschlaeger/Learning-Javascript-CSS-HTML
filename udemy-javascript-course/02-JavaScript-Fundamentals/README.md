@@ -189,3 +189,39 @@ console.log(typeof abc); // string
 ```javascript
 console.log(typeof null); // object
 ```
+- The type of the result of operator "typeof" is a string
+```javascript
+console.log(typeof typeof 23); // string
+```
+
+### Variable Declaration
+`let`
+- Declare variables which can be changed later
+- Block-scoped
+```javascript
+// Variable Declaration with let, var, const
+let age = 30;
+// birthday
+age = 31; // reassignment, mutate the age variable
+```
+`const`
+- Declare constant, immutable variables which cannot be changed
+```javascript
+const birthYear = 2022;
+birthYear = 2020; // Uncaught TypeError: Assignment to constant variable
+```
+- Constant variables need initializers or initial values
+```javascript
+const birthYear; // Uncaught SyntaxError: Missing initializer in const declaration
+```
+- Usually, use `const` and only `let` if sure the variables is changing
+- **Good practice to have as little variable mutations as possible due to possible bugs in the program code**
+`var`
+- Function-scoped
+- Should be avoided completely, from legacy versions
+- Similar to `let`
+```javascript
+var job = "data scientist";
+job = "software developer";
+```
+

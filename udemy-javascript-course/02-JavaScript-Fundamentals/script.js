@@ -22,12 +22,12 @@ let myFirstJob = "Data Scientist";
 let myCurrentJob = "Software Developer";
 
 console.log("After my first job as " + myFirstJob + ", continued as " + myCurrentJob)
-*/
+
 
 // Data Types
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
-console.log("The variable " + javascriptIsFun + " is of type " + typeof (javascriptIsFun));
+console.log("The variable " + javascriptIsFun + " is of type " + typeof javascriptIsFun);
 
 console.log(typeof "Hallo");
 console.log(typeof 23);
@@ -41,7 +41,7 @@ javascriptIsFun = "Yes";
 console.log(typeof javascriptIsFun);
 
 // Undefined
-let year;
+let year; // empty variable
 console.log(year);
 console.log(typeof year);
 year = 2022;
@@ -50,3 +50,17 @@ console.log(typeof year);
 
 // Error in typeof
 console.log(typeof null);
+*/
+
+// Variable Declaration with let, var, const
+let age = 30;
+// birthday
+age = 31; // reassignment, mutate the age variable
+
+const birthYear = 2022;
+// birthYear = 2020; // TypeError: Assignment to constant variable
+// const job; // SyntaxError, const needs an initializer
+
+var job = "data scientist";
+job = "software developer";
+
