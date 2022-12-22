@@ -8,6 +8,7 @@
 - Further resources: https://codingheroes.io/resources/
 
 ## Technical Setup
+- OS: Ubuntu 22.04 Virtual Machine
 - IDE: Visual Studio Code
 - Browser: Google Chrome
 
@@ -31,3 +32,6 @@
 - [ ] Chapter 17: Modern JavaScript Development
 - [ ] Chapter 18: Forkify App: Building a modern Application
 - [ ] Chapter 19: Setting Up Git and Deployment
+
+### Assignments
+- [ ] JavaScript Fundamentals
